@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+// PIXEL px- absoluto
+//não vai mudar, será sempre o mesmo tamanho em todas as telas 
+
+//section
+    .primeiraSessao{
+//borda: 3 valores
+//solide, tipo da borda, cor, espessura
+    border: solid rgb(0, 0, 151) 4px;
+
+//alinhamneto, organiza os estilos das tags de acordo com a sua organização hereditaria
+
+//apenas a div que esta dentro da primeira sessao vai receber este estilo
+       div{
+//largura
+        width: 200px;
+        background-color: rgb(0, 153, 255);
+//altura
+     height: 200px;
+      }
+}
